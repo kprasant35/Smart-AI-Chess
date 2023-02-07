@@ -101,7 +101,7 @@ export default function ClickToMove({ boardWidth }) {
   }
 
   return (
-    <div>
+    <div className="container">
       <Chessboard
         id="ClickToMove"
         animationDuration={200}
