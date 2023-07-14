@@ -53,7 +53,10 @@ export default function ClickToMove({ boardWidth }) {
     const possibleMoves = game.moves();
 
     // exit if the game is over
-    if (game.game_over() || game.in_draw() || possibleMoves.length === 0) return;
+    if (game.game_over() || game.in_draw() || possibleMoves.length === 0){
+      alert("Game Ended");
+      return;
+    }
 
     const move = minimax('b', game);
     // const randomIndex = Math.floor(Math.random() * possibleMoves.length);

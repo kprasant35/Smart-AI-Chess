@@ -21,10 +21,10 @@ body {
   text-align: center;
   justify-content: center;
   flex-wrap: wrap;
-  padding: 30px;
+  padding: 0px;
   margin: auto;
-  width: 800px;
-  height: 800px;
+  width: 600px;
+  height: 600px;
 }
 
 .rc-button:hover,
@@ -32,8 +32,13 @@ body {
   background-color: #b58863;
 }
 
+.title{
+  text-align: center;
+  margin-top: 20px;
+  font-size: 50px;
+}
 
-@media only screen and (max-width: 550px) {
+@media screen and (max-width: 550px) {
   main {
     min-width: 90%;
   }
